@@ -348,7 +348,7 @@
 						setTimeout(function(){
 							_this.$element.find(".mask").css("display","none");
 							// _this.htmlDoms.tips.css({"display":"none",animation:"none"});
-							_this.htmlDoms.tips.animate({"bottom":"-35px"});
+							_this.htmlDoms.tips.animate({"bottom":"-26px"});
 							_this.refresh();
 						},1000)
 						_this.options.success({'captchaVerification':captchaVerification});
@@ -365,7 +365,7 @@
 						_this.htmlDoms.tips.text(res.repMsg)
 						setTimeout(function () { 
 							_this.refresh();
-							_this.htmlDoms.tips.animate({"bottom":"-35px"});
+							_this.htmlDoms.tips.animate({"bottom":"-26px"});
 						}, 1000);
 
 						// setTimeout(function () {
